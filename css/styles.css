@@ -419,7 +419,8 @@ span{
 }
 
 iframe{
-    max-width: 40vw;
+    max-width: 45vw;
+    max-height: 25vh;
 }
 
 .touch{
