@@ -97,8 +97,8 @@ body{
   
   .oppenned .sub-menu {
     opacity: 1;
-    height: 450px;
-    width: 450px;
+    height: 480px;
+    width: 480px;
   }
   .oppenned span:nth-child(2) {
     overflow: visible;
@@ -113,8 +113,8 @@ body{
             transform: rotate(45deg) translateY(12px) translateX(12px);
   }
   .oppenned span:nth-child(2) {
-    height: 450px;
-    width: 450px;
+    height: 480px;
+    width: 480px;
     right: -160px;
     top: -160px;
     border-radius: 50%;
@@ -324,15 +324,34 @@ body{
     min-height: 20em;
 }
 
-.certification-head{
+.certification-head, .project-head{
     font-weight: bold;
     font-size: 2em;
     margin-top: 20%;
     text-align: center;
 }
 
-.certificates{
+.certificates, .projectlist{
     margin: 0;
+}
+.project-item {
+    display: flex;
+    align-items: center;
+    margin: 2.5rem 1.5rem;
+    font-size: 0.6em;
+}
+
+.project-item .project-body {
+    margin: 2rem;
+    line-height: 2;
+}
+.project-body h2 {
+    font-size: 2em;
+}
+
+.projectlist img {
+    height: 60%;
+    width: 35%;
 }
 
 img{
@@ -340,7 +359,7 @@ img{
     height: 20%;
 }
 
-.certificate{
+.certificate, .project{
     padding: 5%;
 }
 
@@ -502,14 +521,39 @@ a{
     max-height: 16em;
 }
 
-.certification-head{
+.project-item {
+    display: flex;
+    margin: 5rem 0rem;
+    margin-left: 15rem;
+    font-size: 1.2em;
+}
+
+.project-item .project-body {
+    margin: 2rem 5rem;
+    text-align: left;
+}
+
+.project-body h2 {
+    font-size: 1.6em;
+}
+
+.projectlist img {
+    height: 25%;
+    width: 20%;
+}
+
+.project-item p {
+    margin: 2rem 0;
+}
+
+.certification-head, .project-head{
     font-size: 4em;
     margin-top: 10%;
 }
-.certificate{
+.certificate, .project{
     padding: 2%;
 }
-.certificates{
+.certificates, .projectlist{
     text-align: center;
 }
 
@@ -602,15 +646,39 @@ iframe{
     max-height: 15em;
 }
 
-.certification-head{
+.certification-head, .project-head{
     font-size: 3em;
     margin-top: 10%;
 }
-.certificate{
+.certificate, .project{
     padding: 2%;
 }
-.certificates{
+.certificates, .projectlist{
     text-align: center;
+}
+.project-item {
+    display: flex;
+    margin: 5rem 0rem;
+    margin-left: 15rem;
+    font-size: 1.2em;
+}
+
+.project-item .project-body {
+    margin: 2rem 5rem;
+    text-align: left;
+}
+
+.project-body h2 {
+    font-size: 1.6em;
+}
+
+.projectlist img {
+    height: 25%;
+    width: 20%;
+}
+
+.project-item p {
+    margin: 2rem 0;
 }
 
 .fact-text{
